@@ -43,6 +43,7 @@ self.addEventListener("activate", event => {
     );
   });
 
+//   fetch
   self.addEventListener("fetch", event => {
     if (
       event.request.method !== "GET" ||
